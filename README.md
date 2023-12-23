@@ -4,6 +4,44 @@
 
 The Comprehensive Crime Analysis and Reduction Strategy for Montgomery County addresses the urgent issue of crime from 2016 to 2022. This initiative involves a meticulous approach, beginning with data preparation and cleaning, followed by a thorough Exploratory Data Analysis (EDA). Through diverse datasets and various data visualization techniques, including interactive maps, heatmaps, bar charts, and time series graphs, we aim to unveil hidden patterns, crime hotspots, seasonal effects, and demographic-crime connections. The results aim to empower law enforcement agencies, policymakers, and researchers for informed decision-making to effectively reduce crime and enhance public safety.
 
+
+## PCA Results README
+
+### Overview:
+
+This section provides an overview of the Principal Component Analysis (PCA) results, showcasing the variance explained by each principal component and the cumulative explained variance ratio.
+
+### Principal Components and Explained Variance:
+
+- **Principal Component 1:** Explains about 19.35% of the variance.
+- **Principal Component 2:** Contributes an additional 16.79%.
+- **Principal Component 3 and beyond:** Each subsequent component adds to the cumulative explained variance.
+
+### Cumulative Explained Variance:
+
+- The first three principal components capture approximately 49.69% of the total variance.
+- To achieve 80% variance coverage, around 12 principal components are required.
+
+### PCA Results Table:
+
+The PCA results table details the explained variance for each principal component and the cumulative explained variance.
+
+- **Principal Component:** Index ranging from 1 to 12.
+- **Explained Variance Ratio:** Proportion of variance explained by each principal component.
+
+### Interpretation:
+
+The interpretation section delves into the significance of the results:
+
+- **First Principal Component:** Explains approximately 19.32% of the variance.
+- **First Two Components:** Combined explain about 36.06% of the variance.
+- **Cumulative Explained Variance:** Reaches approximately 91.5% by the eighth principal component.
+
+### Implications:
+
+The PCA results suggest that the first eight principal components capture around 81% of the variance. This reduction in dimensionality can accelerate model training while retaining a substantial portion of the original information. The choice of 12 components appears to strike a balance between dimensionality reduction and information retention.
+
+
 ## Results for kNN and Naive Bayes Models
 
 ### kNN Model
