@@ -1,5 +1,9 @@
 # Comprehensive Crime Analysis and Reduction Strategy - Montgomery County (2016-2022)
 
+## Files
+- **EDA :** This file contains the real EDA code and analysis for crime for year, month , week , day
+- **ML :** This file has all preprocessing and ML code in python for crime dataset.
+
 ## Introduction
 
 The Comprehensive Crime Analysis and Reduction Strategy for Montgomery County addresses the urgent issue of crime from 2016 to 2022. This initiative involves a meticulous approach, beginning with data preparation and cleaning, followed by a thorough Exploratory Data Analysis (EDA). Through diverse datasets and various data visualization techniques, including interactive maps, heatmaps, bar charts, and time series graphs, we aim to unveil hidden patterns, crime hotspots, seasonal effects, and demographic-crime connections. The results aim to empower law enforcement agencies, policymakers, and researchers for informed decision-making to effectively reduce crime and enhance public safety.
